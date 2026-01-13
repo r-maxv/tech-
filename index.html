@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Great Offers — Rewards & Deals</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #080808;
+      color: white;
+    }
+    .bg-image {
+      background-image: url('https://static.vecteezy.com/system/resources/thumbnails/068/950/768/small_2x/a-cityscape-with-lights-and-buildings-at-night-photo.jpg');
+      filter: brightness(.32) contrast(.95) saturate(.9);
+    }
+    @keyframes updown {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-7px); }
+    }
+    .animate-bouncy {
+      animation: updown 2.2s infinite ease-in-out;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="relative min-h-screen">
+  <div class="fixed inset-0 bg-image bg-cover bg-center -z-10"></div>
+  <div id="root"></div>
+</body>
+</html>

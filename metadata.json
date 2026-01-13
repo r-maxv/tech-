@@ -1,0 +1,7 @@
+{
+  "name": "US Great Offers",
+  "description": "Rewards, Deals & Offers verified by The US Great Offer.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
